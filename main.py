@@ -19,7 +19,7 @@ parser.add_argument('--gpu_mem', dest='gpu_mem', type=float, default=0.5, help="
 parser.add_argument('--phase', dest='phase', default='train', help='train or test')
 
 parser.add_argument('--epoch', dest='epoch', type=int, default=100, help='number of total epoches')
-parser.add_argument('--batch_size', dest='batch_size', type=int, default=8, help='number of samples in one batch')
+parser.add_argument('--batch_size', dest='batch_size', type=int, default=4, help='number of samples in one batch')
 parser.add_argument('--patch_size', dest='patch_size', type=int, default=48, help='patch size')
 parser.add_argument('--start_lr', dest='start_lr', type=float, default=0.001, help='initial learning rate for adam')
 parser.add_argument('--eval_every_epoch', dest='eval_every_epoch', default=1, help='evaluating and saving checkpoints every #  epoch')
